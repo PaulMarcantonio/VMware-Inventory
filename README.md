@@ -3,7 +3,7 @@
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;Pulls all VM within multiple VCenters Provided  
   
 <strong><u>Useage</u>:</strong> 
-  <br/>&nbsp;&nbsp;&nbsp;&nbsp;Great as a task manager task to run on schedule. This provides an Excel file with completed inventory along with statistics.
+  <br/>&nbsp;&nbsp;&nbsp;&nbsp;Provides an Email with attached Excel file of all VMs with associated General and Utilization details.
 
 <strong><u>Programmer</u>:</strong>
      <br/>&nbsp;&nbsp;&nbsp;&nbsp;Paul Marcantonio
