@@ -2,7 +2,7 @@
 <strong><u>Description</u>:</strong> 
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;Pulls all VM within multiple VCenters Provided  
   
-<strong><u>Useage</u>:</strong> 
+<strong><u>Usage</u>:</strong> 
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;Provides an Email with attached Excel file of all VMs with associated General and Utilization details.
 
 <strong><u>Programmer</u>:</strong>
