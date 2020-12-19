@@ -15,8 +15,8 @@
      <br/>&nbsp;&nbsp;&nbsp;&nbsp;2.2
 
 <strong><u>Pre-Condition</u>:</strong>
-  <br/>&nbsp;&nbsp;&nbsp;&nbsp;Powershell installed and with execution policy set to remote signed
-  VMware PowerCLI (compatible with VCenter version trying to connect to) must be installed on the server that this script if running on.
+  <br/>&nbsp;&nbsp;&nbsp;&nbsp;Powershell installed with execution policy set to remote signed
+  <br/>&nbsp;&nbsp;&nbsp;&nbsp;VMware PowerCLI (compatible with VCenter version connecting to) must be installed on the server that this script runs on.
 
 <strong><u>Project Title</u>:</strong>
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;VCenter VM Inventory report from each VCenter listed
