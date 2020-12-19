@@ -2,7 +2,7 @@
 <strong><u>Description</u>:</strong> 
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;Pulls all VM within multiple VCenters Provided  
   
-<strong><u>Useage</u>:</strong> 
+<strong><u>Usage</u>:</strong> 
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;Can be launched in a Powershell session on a system that has VMware PowerCLI shell also installed on the System. Also great as a task manager task to run on schedule. This provides an Excel file with completed inventory along with statistics.
 
 <strong><u>Programmer</u>:</strong>
