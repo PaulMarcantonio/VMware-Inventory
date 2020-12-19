@@ -2,8 +2,8 @@
 <strong><u>Description</u>:</strong> 
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;Pulls all VM within multiple VCenters Provided  
   
-<strong><u>Usage</u>:</strong> 
-  <br/>&nbsp;&nbsp;&nbsp;&nbsp;Can be launched in a Powershell session on a system that has VMware PowerCLI shell also installed on the System. Also great as a task manager task to run on schedule. This provides an Excel file with completed inventory along with statistics.
+<strong><u>Useage</u>:</strong> 
+  <br/>&nbsp;&nbsp;&nbsp;&nbsp;Great as a task manager task to run on schedule. This provides an Excel file with completed inventory along with statistics.
 
 <strong><u>Programmer</u>:</strong>
      <br/>&nbsp;&nbsp;&nbsp;&nbsp;Paul Marcantonio
@@ -16,7 +16,6 @@
 
 <strong><u>Pre-Condition</u>:</strong>
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;Powershell installed and with execution policy set to remote signed
-  Exchange Powershell Shell (version to match Exchange Server version) is installed on this system as well
   VMware PowerCLI (compatible with VCenter version trying to connect to) must be installed on the server that this script if running on.
 
 <strong><u>Project Title</u>:</strong>
