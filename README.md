@@ -1,6 +1,6 @@
 <h2>VM Inventory Report</h2>
 <strong><u>Description</u>:</strong> 
-  <br/>&nbsp;&nbsp;&nbsp;&nbsp;Pulls all Guest VMs within multiple VCenters Provided  
+  <br/>&nbsp;&nbsp;&nbsp;&nbsp;Pulls all VM within multiple VCenters Provided  
   
 <strong><u>Usage</u>:</strong> 
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;Provides an Email with attached Excel file of all VMs with associated General and Utilization details.
@@ -17,6 +17,7 @@
 <strong><u>Pre-Condition</u>:</strong>
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;Powershell installed with execution policy set to remote signed
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;VMware PowerCLI (compatible with VCenter version connecting to) must be installed on the server that this script runs on.
+  <br/>&nbsp;&nbsp;&nbsp;&nbsp;EPPlus must be installed and script pointed towards the location of EPPlus DLL (https://www.nuget.org/packages/EPPlus/)
 
 <strong><u>Project Title</u>:</strong>
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;VCenter VM Inventory report from each VCenter listed
