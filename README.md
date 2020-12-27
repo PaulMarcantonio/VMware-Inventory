@@ -79,32 +79,28 @@
 		<li>Build Excel File and add content from VM master array </li>
 		<li>Send email a copy of the Excel file to all listed emails receipents</li>
 	</ul>
-	<br/>&nbsp;&nbsp;&nbsp;&nbsp;Send Email to team with html table results and HTML file attachement
+	<li>Send Email to team with html table results and HTML file attachement</li>
 
 <strong><u>Pre-Condition(s)</u>:</strong>
      <br/>&nbsp;&nbsp;&nbsp;&nbsp;Powershell Execution Policy set to Remove Signed (Get-ExecutionPolicy, Set-ExecutionPolicy RemoteSigned)
-     <br/>&nbsp;&nbsp;&nbsp;&nbsp;Exchange Management Shell installed on the scripting server (Using the Exchange ISO and choose management console only)
-     <br/>&nbsp;&nbsp;&nbsp;&nbsp;User this script executes under should have Exchange Enterprise rights (https://docs.microsoft.com/en-us/powershell/exchange/find-exchange-cmdlet-permissions?view=exchange-ps)
+     <br/>&nbsp;&nbsp;&nbsp;&nbsp;VMware PowerCLI (version compatible with VCenters connecting to) must be installed on the server running this script
+     <br/>&nbsp;&nbsp;&nbsp;&nbsp;Need to create encrypted user and password files to use for authenticating to the VCenter (ref Generate_Encrypted_Password_File.ps1 in my repository) 
      <br/>&nbsp;&nbsp;&nbsp;&nbsp;The server this script runs on must be on the "allow relay" on any and all load balancers infront of exchange and within exchange
 
 <strong><u>Post-Condition(s)</u>:</strong>
-     <br/>&nbsp;&nbsp;&nbsp;&nbsp;New HTML file with script data included
-     <br/>&nbsp;&nbsp;&nbsp;&nbsp;Email sent to the desired email list with:
-          <ul>
-            <li>HTML backup summary table included in message body</li>
-            <li>Copy of the HTML file with all details from script.</li>
-          </ul>
+     <br/>&nbsp;&nbsp;&nbsp;&nbsp;New Excel file provided with VM inventory data included
+     <br/>&nbsp;&nbsp;&nbsp;&nbsp;Email sent to the desired email list with excel file attachment
  <strong><u>Installation</u>:</strong>
      <br/>&nbsp;&nbsp;&nbsp;&nbsp;Make sure Powershell version 3 or above is installed on the server (Server Role and Features (Windows Powershell)
-     <br/>&nbsp;&nbsp;&nbsp;&nbsp;Domain Administrator Powershell is activated on Server running the script by Roles and Features or running "Import-Module ServerManagerAdd-WindowsFeature RSAT-AD-PowerShell"
+     <br/>&nbsp;&nbsp;&nbsp;&nbsp;VMware PowerCLI (version compatible with VCenters connecting to) must be installed on the server running this script"
+	 <br/>&nbsp;&nbsp;&nbsp;&nbsp;You have a user with proper credentials to access inventory within the VCenter (test with GUI first)"
+	 <br/>&nbsp;&nbsp;&nbsp;&nbsp;Download and install EPPlus to create and format the excel file with data (https://www.nuget.org/packages/EPPlus/)."
      
 <strong><u>Contributing</u>:</strong>
-    <br/>&nbsp;&nbsp;&nbsp;&nbsp;None
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;https://www.nuget.org/packages/EPPlus/
 
 <strong><u>Citations</u>:</strong>
      <br/>&nbsp;&nbsp;&nbsp;&nbsp;None
 	 
 <strong><u>Output Examples</u>:</strong>
-    <br/>&nbsp;&nbsp;&nbsp;&nbsp;Healthy results from script run (Exchange_DB_Check2020-12-04_T16_00_09-Healthy.html)
-    <br/>&nbsp;&nbsp;&nbsp;&nbsp;Errors found from script run (Exchange_DB_Check2020-11-20_T14_49_54 Errors.html) 	 
-	 
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;Excel File from script run (Exchange_DB_Check2020-12-04_T16_00_09-Healthy.html) 
