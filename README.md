@@ -1,6 +1,6 @@
 <h2>VM Inventory Report</h2>
 <strong><u>Description</u>:</strong> 
-  <br/>&nbsp;&nbsp;&nbsp;&nbsp;Pulls all VM within multiple VCenters Provided  
+  <br/>&nbsp;&nbsp;&nbsp;&nbsp;Pulls all Guest VMs within multiple VCenters Provided  
   
 <strong><u>Usage</u>:</strong> 
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;Provides an Email with attached Excel file of all VMs with associated General and Utilization details.
