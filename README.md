@@ -1,4 +1,4 @@
-<h2>VM Inventory Report</h2>
+<h2>Guest VM Inventory Report</h2>
 <strong><u>Description</u>:</strong> 
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;Pulls all VM within multiple VCenters Provided  
   
@@ -104,4 +104,4 @@
      <br/>&nbsp;&nbsp;&nbsp;&nbsp;None
 	 
 <strong><u>Output Examples</u>:</strong>
-    <br/>&nbsp;&nbsp;&nbsp;&nbsp;Excel File from script run (Exchange_DB_Check2020-12-04_T16_00_09-Healthy.html) 
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;Excel File from script run (VMware_Inventory-D2020-12-27T07-15-25.xlsx) 
