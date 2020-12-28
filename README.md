@@ -91,6 +91,7 @@
 <strong><u>Post-Condition(s)</u>:</strong>
      <br/>&nbsp;&nbsp;&nbsp;&nbsp;New Excel file provided with VM inventory data included
      <br/>&nbsp;&nbsp;&nbsp;&nbsp;Email sent to the desired email list with excel file attachment
+ 
  <strong><u>Installation</u>:</strong>
      <br/>&nbsp;&nbsp;&nbsp;&nbsp;Make sure Powershell version 3 or above is installed on the server (Server Role and Features (Windows Powershell)
      <br/>&nbsp;&nbsp;&nbsp;&nbsp;VMware PowerCLI (version compatible with VCenters connecting to) must be installed on the server running this script"
